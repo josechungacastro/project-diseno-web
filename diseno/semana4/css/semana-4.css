@@ -1,0 +1,211 @@
+.principal {
+    width: 100%;
+    
+}
+
+.redes-sociales {
+    height: 5.5%;
+    float: right;
+    margin-top: 2px;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    float: right;
+    width: 80%;
+    height: 100%;
+    margin-top: 2px;
+}
+
+.redes-sociales ul li {
+    float: right;
+    cursor: pointer;
+}
+
+.logo-principal{
+    height: 31%;
+    
+    text-align: center;
+    width: 100%;
+    
+} 
+
+.menu {
+    height: 44px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin-top: -9px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.menu ul li {
+    border: 1px solid black;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    width: 185px;
+    height: 40px;
+    background-color: greenyellow;
+    text-align: center;
+    
+}
+.menu ul li:hover{
+    background-color: red;
+    text-align: center;
+}
+
+/* submenu*/
+
+.sub-menu{
+    list-style: none;
+    display: none;
+    padding: 0;
+    text-align: left;
+    float: left;
+    
+}
+.sub-menu li{
+    clear: left;
+    padding: 0px;
+}
+.sub-menu li:hover{
+    background-color: black;
+    font-weight: bold;
+}
+
+.menu li:hover .sub-menu{
+   display: block;
+   float: left;
+   margin-top: 19px;
+   text-align: center;
+}
+
+
+
+/* fin del submenu*/
+    
+
+.articulo{
+    border: 1px solid black;
+    width: 380px;
+    float: left;
+    height: 250px;
+    margin-left: 15px;
+    background-color: aqua;
+    margin-top: 100px;
+    background-color: violet;
+}
+.laptop{
+    border: 1px solid black;
+    width: 111%;
+    float: left;
+    height: 80%;
+    margin-left: -40px;
+    text-align: center;
+    
+}
+.textolaptop{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    float: left;
+    height: 18%;
+    text-align: center;
+    cursor: pointer;
+}
+.tv{
+    border: 1px solid black;
+    width: 111%;
+    float: left;
+    height: 80%;
+    margin-left: -40px;
+    text-align: center;
+    
+}
+.textotv{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    float: left;
+    height: 18%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.discoduro{
+    border: 1px solid black;
+    width: 111%;
+    float: left;
+    height: 80%;
+    margin-left: -40px;
+    text-align: center;
+    
+}
+.textodd{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    float: left;
+    height: 18%;
+    text-align: center;
+    cursor: pointer;
+}
+.emultifuncion{
+    border: 1px solid black;
+    width: 111%;
+    float: left;
+    height: 80%;
+    margin-left: -40px;
+    text-align: center;
+    
+}
+.textoem{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    float: left;
+    height: 18%;
+    text-align: center;
+    cursor: pointer;
+}
+.foco{
+    border: 1px solid black;
+    width: 111%;
+    float: left;
+    height: 80%;
+    margin-left: -40px;
+    text-align: center;
+}
+.textofoco{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    float: left;
+    height: 18%;
+    text-align: center;
+    cursor: pointer;
+}
+.mochila{
+    border: 1px solid black;
+    width: 111%;
+    float: left;
+    height: 80%;
+    margin-left: -40px;
+    text-align: center;
+}
+.textomochila{
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    float: left;
+    height: 18%;
+    text-align: center;
+    cursor: pointer;
+}
