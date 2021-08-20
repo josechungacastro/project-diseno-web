@@ -6,6 +6,6 @@
 
 <script>
 
-    window.location = "index.html";
+    window.location = "semana-3.html";
 
 </script>
