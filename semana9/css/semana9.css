@@ -1,0 +1,75 @@
+.margen{
+    width: 1216px;
+    height: 63px;
+    background-color: red;
+}
+.pelota{
+    width: 5%;
+    height: 60px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    /*animation-name: mover;*/
+    animation-duration: 10s;
+    position: relative;
+    animation-name: ida-vuelta;
+    animation-iteration-count: infinite;
+    background-color: rebeccapurple ;
+}
+
+@keyframes mover {
+    from {
+        left: 0px;
+    }
+    to{
+        left: 95%;
+    }
+    
+}
+/*animacion para mover pelota de ida y vuelta*/
+
+@keyframes ida-vuelta {
+    0%{
+        left: 0;
+        /*opacity: 0,5;*/
+    }
+    50%{
+        left: 95%;
+        /*opacity: 1;*/
+    }
+    100%{
+        left: 0;
+        /*opacity: 0;*/
+    }
+    
+}
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-left-color: yellow;
+    border-right-color: green;
+    border-top-color: blue;
+    border-bottom-color: red;
+    transform: rotate(10deg);
+    margin-left: 20px;
+    
+}
+.rotar{
+    margin-top: 150px;
+    transform: rotate(10deg);
+}
+.escalar{
+    transform: scale(1, 1.2)
+}
+.sesgado{
+    transform: skewX(10deg)
+}
+.transicion{
+    transition: width 3s, background-color 4s, color 3s;
+    transition-timing-function: linear;
+}
+.transicion:hover{
+    width: 150px;
+    background-color: peru;
+    color: white;
+}

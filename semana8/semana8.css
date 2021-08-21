@@ -1,0 +1,87 @@
+header{
+    width: 100%;
+    border: 1px dashed;
+    /*padding: 20px;*/
+    /*border-radius: 15px 15px 0 0;*/
+    /*border-top-left-radius: ;*/
+    border-radius: 15px;
+    height: 400px;
+    background-color: rgb(162, 99, 221);
+    /*box-sizing y border-box; no altera el tamaño del componente cuando tenga  padding , margin y borde;*/
+    
+}
+nav{
+    width: 100%;
+    padding: 10px 0 5px 80px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    height: 60px;
+    float: left;
+}
+/* menu*/
+.menu {
+    height: 100%;
+    width: 1210px;
+    
+    margin-left: -80px;
+    margin-top: -3px;
+    float: left;
+}
+
+.menu ul {
+    list-style: none;
+    width: 1170px;
+    height: 100%;
+    margin-top: -5px;
+    float: left;
+    transition: all 2s ease;
+}
+
+.menu ul li {
+    border: 1px solid black;
+    float: left;
+    cursor: pointer;
+    width: 16.4%;
+    height: 35px;
+    background-color: greenyellow;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -25px;
+    margin-right: 26px;
+}
+.menu ul li:hover{
+    background-color: red;
+    transform: scale(1.3, 1.3);
+}
+
+/*fin del menu*/
+
+
+
+article{
+    width: 100%;
+    border: 1px solid;
+    height: 350px;
+    background-color: lightblue;
+    float: left;
+    box-sizing:border-box ;
+    margin-top: 5px;
+
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    border: 1px dashed;
+    background-color: rebeccapurple;
+    height: 150px;
+    box-sizing: border-box;
+    float: left;
+    margin: 5px 0 5px 0;
+    border-radius: 0 0 15px 15px;
+}
+.contacto{
+    float: left;
+    text-align: center;
+    margin-left: 400px;
+}
