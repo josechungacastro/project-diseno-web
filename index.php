@@ -6,6 +6,6 @@
 
 <script>
 
-    window.location = "/proyecto-diseño-web/semana9/semana9.html";
+    window.location = "/project-diseño-web/semana9/semana9.html";
 
 </script>
