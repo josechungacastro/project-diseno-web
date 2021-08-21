@@ -26,7 +26,7 @@
     width: 100%;
     height: 350px;
     animation-name: carrusel-img;
-    background-image: url(/imagenes/imagen1.jpg);
+    background-image: url(/project-diseno-web/semana11/imagenes/imagen1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     animation-duration: 10s;
@@ -34,12 +34,12 @@
 }
 @keyframes carrusel-img {
     0%{
-        background-image: url(/imagenes/imagen1.jpg);
+        background-image: url(/project-diseno-web/semana11/imagenes/imagen1.jpg);
     }
     50%{
-        background-image: url(/imagenes/imagen2.jpg);
+        background-image: url(/project-diseno-web/semana11/imagenes/imagen2.jpg);
     }
     100%{
-        background-image: url(/imagenes/imagen3.jpg);
+        background-image: url(/project-diseno-web/semana11/imagenes/imagen3.jpg);
     }
 }
